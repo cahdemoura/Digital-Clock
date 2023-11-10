@@ -53,10 +53,22 @@ body {
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 3px;
+
+    @media (max-width:500px) {
+        font-size: 48px;
+    }
+
+    transition: all 0.1s ease-in-out;
 }
 
 .block div.time {
     margin-top: 14px;
     font-size: 24px;
     font-weight: 400;
+
+    @media (max-width:500px) {
+        font-size: 18px;
+    }
+
+    transition: all 0.1s ease-in-out;
 }
